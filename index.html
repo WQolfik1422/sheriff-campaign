@@ -358,6 +358,7 @@ window.onclick = function(event){
   <div class="gallery">
     <!-- Miniatury zdjęć -->
     <img src="oboje.png" alt="Ubranie Sheriff Department" onclick="openImage(this.src, this.alt)">
+	<img src="oboje1.png" alt="My" onclick="openImage(this.src, this.alt)">
   </div>
 
   <!-- Modal do powiększania zdjęć -->
@@ -387,7 +388,7 @@ window.onclick = function(event){
 }
 
 .gallery img:hover {
-  transform: scale(1.05);
+  transform: scale(1.00);
   box-shadow: 0 10px 25px black;
 }
 
@@ -395,7 +396,7 @@ window.onclick = function(event){
 .modal {
   display: none;
   position: fixed;
-  z-index: 2000;
+  z-index: 1000;
   left: 0;
   top: 0;
   width: 100%;
